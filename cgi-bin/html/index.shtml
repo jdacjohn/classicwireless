@@ -1,0 +1,97 @@
+<html>
+<head>
+<title>NDC Sales - 800 Mhz Analog Radio Specialists</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+<script language="JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body bgcolor="#FFFFFF" text="#666666" link="#CC0033" vlink="#CC3333" alink="#333333" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('images/header-02a.gif','images/header-03a.gif','images/header-04a.gif','images/header-05a.gif','images/header-06a.gif','images/header-07a.gif','images/header-08a.gif','images/header-09a.gif')">
+<table border="0" cellspacing="0" cellpadding="0" width="760">
+  <tr> 
+    <td> 
+      <table width="760" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td colspan="9"> <img src="images/header-01.jpg" width="760" height="52" usemap="#Map" border="0" href="/cgi-bin/classicwireless/search_products.cgi"></td>
+        </tr>
+        <tr> 
+          <td> <a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image1','','images/header-02a.gif',1)"><img src="images/header-02.gif" width="66" height="15" border="0" name="Image1"></a></td>
+          <td> <a href="/cgi-bin/classicwireless/search_products.cgi" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image2','','images/header-03a.gif',1)"><img src="images/header-03.gif" width="93" height="15" border="0" name="Image2"></a></td>
+          <td> <a href="/cgi-bin/classicwireless/view_specials.cgi" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','images/header-04a.gif',1)"><img src="images/header-04.gif" width="84" height="15" border="0" name="Image3"></a></td>
+          <td> <a href="services.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','images/header-05a.gif',1)"><img src="images/header-05.gif" width="86" height="15" border="0" name="Image4"></a></td>
+          <td> <a href="news.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','images/header-06a.gif',1)"><img src="images/header-06.gif" width="65" height="15" border="0" name="Image5"></a></td>
+          <td> <a href="/cgi-bin/classicwireless/view_library.cgi" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','images/header-07a.gif',1)"><img src="images/header-07.gif" width="77" height="15" border="0" name="Image6"></a></td>
+          <td> <a href="links.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','images/header-08a.gif',1)"><img src="images/header-08.gif" width="66" height="15" border="0" name="Image7"></a></td>
+          <td> <a href="contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image8','','images/header-09a.gif',1)"><img src="images/header-09.gif" width="82" height="15" border="0" name="Image8"></a></td>
+          <td> <img src="images/header-10.gif" width="141" height="15"></td>
+        </tr>
+        <tr> 
+          <td colspan="9"> <img src="images/white.gif" width="760" height="32"></td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr> 
+    <td> 
+      <table width="760" border="0" cellpadding="0" cellspacing="0">
+        <tr> 
+          <td colspan="6"> <img src="images/home-01.gif" width="760" height="23"></td>
+        </tr>
+        <tr> 
+          <td rowspan="2"> <img src="images/home-02.gif" width="33" height="364"></td>
+          <td colspan="5"> <!--#exec cgi="/cgi-bin/classicwireless/rimg.cgi"--></td>
+        </tr>
+        <tr> 
+          <!--<td><img src="images/home-04.gif" width="264" height="114"></td>-->
+		  <td width="264" bgcolor="#eeeeee" valign="top"><!--#include virtual="/cgi-bin/classicwireless/view_specials.cgi?mode=homepage&section=1"--></td>
+          <td> <img src="images/home-05.gif" width="6" height="114"></td>
+          <!--<td> <img src="images/home-06.gif" width="241" height="114"></td>-->
+		  <td width="241" bgcolor="#eeeeee" valign="top"><!--#include virtual="/cgi-bin/classicwireless/view_specials.cgi?mode=homepage&section=2"--></td>
+          <td> <img src="images/home-07.gif" width="6" height="114"></td>
+          <td> <img src="images/home-08.gif" width="210" height="114" usemap="#Map" border="0"></td>
+        </tr>
+      </table>
+      <table border="0" cellspacing="0" cellpadding="5">
+        <tr> 
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<map name="Map"> 
+  <area shape="rect" coords="2,2,186,50" href="/cgi-bin/classicwireless/view_specials.cgi">
+
+  <area shape="rect" coords="673,9,757,41" href="contact.html">
+  <area shape="rect" coords="387,11,642,41" href="/cgi-bin/classicwireless/search_products.cgi">
+</map>
+</body>
+</html>

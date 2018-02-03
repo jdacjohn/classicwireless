@@ -1,0 +1,8 @@
+o Properly sort Product search categories
+
+o Need to test uploading large (20MB+) files into library
+
+o When modifying a special, if you change the vendorid or item_num, the images
+  are not renamed.
+
+# vim: set ts=2 et tw=78 :

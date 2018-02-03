@@ -1,0 +1,7 @@
+# .gitignore 
+
+# Config file with DB Connect Info
+conf.pm
+security
+vssver.scc
+

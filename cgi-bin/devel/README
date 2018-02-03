@@ -1,0 +1,28 @@
+Nextel National Distribution Center Application
+=======================================================================
+
+Required Perl Modules:
+-----------------------------------------------------------------------
+
+  o DBD::mysql
+  o HTML::Template
+  o HTML::Entities
+  o Spreadsheet::ParseExcel
+    |-> IO::stringy
+    `-> OLE::Storage_Lite
+  o Image::Size
+  o Image::Magick
+  o File::MMagic
+  o File::Copy
+  o FreezeThaw
+
+
+Notes on Database:
+-----------------------------------------------------------------------
+
+  The 'sid' field in the 'products' table has a maximum value of 4
+  billion, so we could be in danger of reaching that limit by the year
+  2730.  Make sure to rebuild the table before then.  :-)
+
+-----------------------------------------------------------------------
+# vim: set ts=4 et tw=72 :

@@ -1,0 +1,119 @@
+.bodystyle {  
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 11px; 
+  line-height: 20px; 
+  color: #333333
+}
+
+.bodystyleIndent5 {  
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 11px; 
+  line-height: 20px; 
+  color: #333333;
+  text-indent: 5px;
+}
+
+.bodystyleIndent10 {  
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 11px; 
+  line-height: 20px; 
+  color: #333333;
+  text-indent: 10px;
+}
+
+.bodystyleUL {  
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 11px; 
+  line-height: 20px; 
+  color: #333333;
+  text-decoration:underline;
+}
+.linehalfht {
+  line-height: 10px;
+}
+
+.specialsstyle {  
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 10px; line-height: 13px; color: #333333;
+}
+
+.hp_formStyle {
+	margin-bottom:0px;
+}
+
+.homeliststyle {
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 10px; 
+  line-height: 12px;
+  
+	width:162px; 
+  color: #ffffff;
+  background-color:#666666
+}
+
+.title1style {  
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 12px; line-height: 24px; 
+font-weight: bold; color: #333333}
+
+body {  
+background-color: #FFFFFF; 
+background-position: 0px 0px}
+
+body.homepage {  
+background-color: #FFFFFF; 
+background-position: 0px 0px}
+
+#footerstyle {  
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 10px; line-height: 14px; color: #666666}
+
+#footerstyle A:link {text-decoration: none; color: #666666}
+#footerstyle A:visited {text-decoration: none; color: #666666}
+#footerstyle A:active {text-decoration: none; color: #666666}
+#footerstyle A:hover {text-decoration: underline; color: #333333}
+
+#searchstyle {  
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 11px; line-height: 14px; color: #CC0033}
+
+#searchstyle A:link {text-decoration: none; color: #CC0033}
+#searchstyle A:visited {text-decoration: none; color: #CC0033}
+#searchstyle A:active {text-decoration: none; color: #CC0033}
+#searchstyle A:hover {text-decoration: underline; color: #333333}
+     
+.tabledata {  
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 11px; 
+  line-height: 15px; 
+  color: #333333;
+}
+
+.error { font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px; line-height: 20px; color: #c33; }
+.hometext {
+	font-family: arial, helvetica, sans-sarif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+.hometextUL {
+	font-family: arial, helvetica, sans-sarif;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration:underline;
+}
+
+.popuptext {
+  font-family: arial, helvetica, sans-sarif;
+	font-size: 12px;
+	color: #FF0033;
+	padding-left: 40px;
+}
+
+.hometitles {
+	font-family: arial, helvetica, sans-sarif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ffffff;
+}

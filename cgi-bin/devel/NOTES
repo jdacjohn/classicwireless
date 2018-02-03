@@ -1,0 +1,15 @@
+House Cleaning
+==============
+
+o Don't need HTML::Template in .cgi files -- only needed in Conf.pm
+
+o Use CGI qw(-no_xhtml)
+
+o Use HTML::Entities qw(encode_entities)
+
+o Pass references!
+
+o Use or ! ||
+
+o Take out any -w switches and comment out debugging code
+

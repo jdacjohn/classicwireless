@@ -1,0 +1,231 @@
+<html>
+<head>
+<title>Classic Wireless L.L.C.</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="stylesheet.css" type="text/css">
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<script language="JavaScript" type="text/javascript">
+//--------------- LOCALIZEABLE GLOBALS ---------------
+var d=new Date();
+//var monthname=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
+//Ensure correct for language. English is "January 1, 2004"
+//var TODAY = monthhname[d.getMonth()] + " " + d.getDate() + ", " + d.getFullYear();
+var TODAY = checkTime(d.getMonth() + 1) + "." + checkTime(d.getDate()) + "." + d.getFullYear();
+//---------------   END LOCALIZEABLE   ---------------
+function startTime()
+{
+var today=new Date();
+var h=today.getHours();
+var m=today.getMinutes();
+var s=today.getSeconds();
+var ampm = getAMPM(h);
+// add a zero in front of numbers<10
+h = checkPM(h);
+m=checkTime(m)
+s=checkTime(s)
+document.getElementById('txt').innerHTML=TODAY+"&nbsp;&nbsp;"+h+":"+m+":"+s+"&nbsp;"+ampm+"&nbsp;"
+t=setTimeout('startTime()',500)
+}
+
+function checkTime(i)
+{
+if (i<10) 
+  {i="0" + i}
+  return i
+}
+function getAMPM(i)
+{
+var ampm = "a.m.";
+if (i>=12) 
+  {ampm = "p.m."}
+  return ampm;
+}
+function checkPM(i)
+{
+if (i>12)
+  {i = i - 12}
+  return i;
+}
+</script>
+<script type="text/javascript">
+var flashArray = new Array();
+flashArray[0] = './flash/specials_s1.swf';
+flashArray[1] = './flash/specials_s2.swf';
+flashArray[2] = './flash/specials_s3.swf';
+  
+var p = flashArray.length;
+var thisFlash = Math.round(Math.random() * (p-1));
+
+function getFlash() {
+document.write('<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" ');
+document.write('codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" ');
+document.write('width="164" height="93" id="specials_swf" name="specials_swf">');
+document.write('<param name="movie" value="' + flashArray[thisFlash] + '" />');
+document.write('<param name="quality" value="high" />');
+document.write('<param name="bgcolor" value="#B90000" />');
+document.write('<embed src="' + flashArray[thisFlash] + '"; quality="high" bgcolor="#B90000" width="164" height="93" ');
+document.write('name="specials_swf" ALIGN="" TYPE="application/x-shockwave-flash" ');
+document.write('PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">');
+document.write('</embed>');
+document.write('</object>');
+}
+</script>
+  
+</head>
+
+<body bgcolor="#FFFFFF" text="#000000" onLoad="startTime();MM_preloadImages('images/buttons-on_01.gif','images/buttons-on_02.gif','images/buttons-on_03.gif','images/buttons-on_04.gif','images/buttons-on_05.gif','images/buttons-on_06.gif','images/buttons-on_07.gif','images/buttons-on_08.gif','images/buttons-on_09.gif')">
+<table width="866" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td rowspan="4" align="center" valign="top" width="167" background="images/home_grey_tile.gif"><img src="images/home_logo.gif" width="167" height="203" border="0"> 
+      <table border="0" cellspacing="0" cellpadding="0" width="141" height="143">
+        <tr> 
+          <td height="20" background="images/tan_tile.gif" align="left" valign="top"><img src="images/home_now_featuring.gif" width="141" height="32"></td>
+        </tr>
+        <tr> 
+          <td height="79" background="images/tan_tile.gif" class="tabledata">
+          <p align="center">Factory Direct From...<br>
+          <!--#include virtual="/cgi-bin/view_specials.cgi?mode=hp_vendors"-->
+        </tr>
+        <tr> 
+          <td><img src="images/home_shop.gif" width="141" height="36"></td>
+        </tr>
+      </table>
+		</td>
+    <td colspan="3" height="48" width="695" align="left" valign="top"><img src="images/home_header_1.gif" width="699" height="53" border="0" usemap="#Map">
+      <map name="Map">
+        <area shape="rect" coords="345,27,576,40" href="./buyback.html">
+        <area shape="rect" coords="347,9,604,22" href="/cgi-bin/search_products.cgi">
+    	</map>
+		</td>
+  </tr>
+  <tr> 
+    <td colspan="3" height="11" align="left">
+		<a href="/cgi-bin/search_products.cgi" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('button1','','images/buttons-on_01.gif',1)"><img src="images/buttons_01.gif" width="69" height="15" border="0" name="button1"></a>
+		<a href="/cgi-bin/view_specials.cgi" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('button2','','images/buttons-on_02.gif',1)"><img src="images/buttons_02.gif" width="61" height="15" border="0" name="button2"></a>
+		<a href="towerconstr.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('button3','','images/buttons-on_03.gif',1)"><img src="images/buttons_03.gif" width="127" height="15" border="0" name="button3"></a>
+		<a href="twoway.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('button4','','images/buttons-on_04.gif',1)"><img src="images/buttons_04.gif" width="113" height="15" border="0" name="button4"></a>		
+		<a href="radiosales.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('button5','','images/buttons-on_05.gif',1)"><img src="images/buttons_05.gif" width="79" height="15" border="0" name="button5"></a>		
+		<a href="/cgi-bin/view_news.cgi" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('button6','','images/buttons-on_06.gif',1)"><img src="images/buttons_06.gif" width="47" height="15" border="0" name="button6"></a>
+		<a href="/cgi-bin/view_library.cgi" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('button7','','images/buttons-on_07.gif',1)"><img src="images/buttons_07.gif" width="57" height="15" border="0" name="button7"></a>
+		<a href="/cgi-bin/view_links.cgi" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('button8','','images/buttons-on_08.gif',1)"><img src="images/buttons_08.gif" width="45" height="15" border="0" name="button8"></a>
+		<a href="contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('button9','','images/buttons-on_09.gif',1)"><img src="images/buttons_09.gif" width="47" height="15" border="0" name="button9"></a></td>
+  </tr>
+  <tr> 
+    <td colspan="3" align="left" valign="top"><img src="images/home_title.gif" width="593" height="49"></td>
+  </tr>
+  <tr> 
+<!--    <td width="265" height="245" align="left" valign="top" background="images/home_brown_grad_tile.jpg"><img src="images/home_collage_2.jpg" width="265" height="249"></td> -->
+    <td width="265" height="249" align="left" class="hp_formStyle">
+      <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" 
+        codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,40,0" 
+        width="265" height="249" id="home_page_swf" name="home_page_swf">
+        <param name="movie" value="./flash/home_page.swf" />
+        <param name="quality" value="high" />
+        <param name="bgcolor" value="#B90000" />
+        <param name="class" value="specialsstyle" />
+        <embed src="./flash/home_page.swf" quality="high" bgcolor="#B90000" width="265" height="249"  
+          name="home_page_swf" ALIGN="" TYPE="application/x-shockwave-flash"
+          PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer">
+        </embed>
+      </object>	
+    </td>
+    <td width="268" height="249" background="images/home_brown_grad_tile.jpg">
+		  <table cellspacing="0" cellpadding="0" width="100%" height="245">
+			  <tr>
+				  <td width="268" height="245" align="center" background="images/home_brown_grad_tile.jpg">
+						<iframe src="home_iframe.html" width="268" height="245" frameborder="0" scrolling="no" allowtransparency="false"></iframe>
+					</td>
+				</tr>
+			</table>
+		</td>
+		<td width="164" align="center" valign="top" background="images/home_red_tile.gif" class="hometext">
+			<table cellpadding="0" cellspacing="0" width="100%" border="0">
+			<tr><td align="center"><img src="./images/top_cats_red.jpg" width="164" height="63" border="0" /></td></tr>
+			<tr>
+        <td align="center" class="specialsstyle" style="border:1px solid #666666;">
+          <!--#include virtual="/cgi-bin/view_specials.cgi?mode=shop_now"-->        
+				</td>
+			</tr>
+			<tr>
+        <td align="center" class="hp_formStyle">
+        <script type="text/javascript">getFlash();</script>
+        </td>
+      </tr>
+      </table>
+		</td>	
+  </tr>
+  <tr> 
+    <td align="center" valign="top" background="images/home_red_black_tile.gif"><img src="images/home_red_black_tile.gif" width="4" height="17"></td>
+    <td align="center" valign="top" background="images/home_red_black_tile.gif">&nbsp;</td>
+    <td align="center" valign="top" background="images/home_red_black_tile.gif">&nbsp;</td>
+    <td align="center" valign="top" background="images/home_red_black_tile.gif">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td colspan="4" align="center" valign="top" height="32">
+      <table border="0" cellspacing="0" cellpadding="0" width="100%" height="32">
+        <tr> 
+          <td width="615" align="left" valign="top" background="images/lt_grey_tile.gif"><img src="images/home_hot_specials.jpg" width="485" height="17"></td>
+          <td width="251" rowspan="2" align="right" valign="top" background="images/lt_grey_tile.gif"><img src="images/home_gladly_accept.gif" width="228" height="98" border="0" usemap="#Map2"><br />&nbsp;<br /><div id="txt" class="tabledata"></div></td>
+        </tr>
+        <tr>
+          <td width="615" align="left" valign="top" height="34" background="images/lt_grey_tile.gif">
+            <table>
+							<tr>
+            		<td><!--#include virtual="/cgi-bin/view_specials.cgi?mode=homepage&section=1"--></td>
+            		<td><!--#include virtual="/cgi-bin/view_specials.cgi?mode=homepage&section=2"--></td>
+            	</tr>
+						</table>
+					</td>
+        </tr>
+      </table>
+		</td>
+<!--    <td align="center" valign="top" height="32">&nbsp;</td> -->
+  </tr>
+  <tr>
+    <!-- following td spans two cols of widths w1=167 and w2=265 (for future reference) -->
+    <td height="2" colspan="2" id="footerstyle">
+      <a href="/admin">Site</a> maintained by <a href="http://www.2k3technologies.com" target="_blank">2k3 Technologies</a>    </td>
+    <!-- <td height="2" width="265">&nbsp;</td> -->
+<!--    <td height="2" width="335" align="right"><img src="images/home_tollfree.gif" width="273" height="28"></td> -->
+    <td height="2" colspan="2" align="right"><img src="images/home_tollfree.gif" width="273" height="28"></td>
+<!--    <td height="2" width="4">&nbsp;</td> -->
+  </tr>
+<!--  <tr> 
+    <td height="2" width="171">&nbsp;</td>
+    <td height="2" width="276">&nbsp;</td>
+    <td height="2" width="335">&nbsp;</td>
+    <td height="2" width="4">&nbsp;</td>
+  </tr> -->
+</table>
+<p>&nbsp;</p>
+<map name="Map2">
+  <area shape="circle" coords="195,26,13" href="/cgi-bin/view_specials.cgi">
+</map>
+</body>
+</html>
+

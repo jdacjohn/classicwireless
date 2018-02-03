@@ -1,0 +1,32 @@
+
+To: sales@classicwireless.org
+From: [required-email]
+Subject: Classic Wireless Buy-Back Form
+
+______________________________________________________
+
+Name:					[required-name]
+
+Company Name: 				[required-companyname]
+
+Address:				[required-address]
+
+Address2:				[address2]
+
+City:					[required-city]
+
+State;					[required-state]
+
+Zip:					[required-zip]
+
+Email:					[required-email]
+
+Phone:					[required-phone]
+
+Fax:					[fax]
+
+Product for Sale:			[required-productforsale]
+
+Additional Comments:			[textarea]
+
+______________________________________________________
